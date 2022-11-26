@@ -1,0 +1,13 @@
+name: Rpg
+version: '${project.version}'
+main: ru.laifada.rpg.Rpg
+commands:
+  item:
+    description: "get item"
+    usage: "/item"
+  spawn:
+    description: "spawn custom mob"
+    usage: "/spawn"
+  quest:
+    description: "get quest"
+    usage: "/quest"
